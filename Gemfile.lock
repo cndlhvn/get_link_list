@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    get_link_list (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  get_link_list!
+
+BUNDLED WITH
+   1.10.3
