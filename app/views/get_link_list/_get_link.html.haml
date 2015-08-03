@@ -1,0 +1,10 @@
+#get_link_list
+  %ul
+    - @paths.each do |header,value|
+      %li
+        %a{:href => "#"}
+          =header
+        %ul
+          - value.each do | action_name, get_url|
+            %li
+              =link_to action_name, get_url
