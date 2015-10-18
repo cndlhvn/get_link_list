@@ -5,6 +5,14 @@
   margin: 0;
   text-decoration: none;
   list-style-type: none;
+  :after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+  }
   ul{
     padding: 0;
     margin: 0;
