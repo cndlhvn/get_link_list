@@ -3,11 +3,11 @@
 
 
 ## Information
+![thumb](https://raw.githubusercontent.com/cndlhvn/get_link_list/image/app/assets/images/get_link_list/getlinklistimage.png)
+
 getlinklist will be able to easily display a linked list of routing only of GET on view.
 
 You can hide in unnecessary get url.
-
-
 
 ## Getting start
 Add to this in Gemfile
