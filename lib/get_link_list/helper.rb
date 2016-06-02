@@ -21,6 +21,7 @@ module GetLinkList
     def match_initial_path_segment(path)
       path= path.sub(/\(.:format\)/, "")
       path.sub(/:(.*)id/, "1")
+      path.sub(/:(.*)locale/, "en")
     end
 
   end
