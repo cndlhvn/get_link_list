@@ -6,4 +6,8 @@ GetLinkList.configure do |config|
   # config.ignore_controller = [:"rails/mailers" => "", :"users/omniauth_callbacks" => ""]
 
   # config.ignore_controller = []
+
+  # If contains a locale word in the url, to convert it into any language
+  # default is en
+  # config.default_lang = "en"
 end
