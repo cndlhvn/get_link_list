@@ -1,4 +1,4 @@
-$(document).on 'ready page:load', ->
+$(document).on 'turbolinks:load', ->
   $('#get_link_list ul li').hover (->
     $(this).children('ul').stop(true,true).slideDown("fast")
   ), ->
