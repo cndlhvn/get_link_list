@@ -19,9 +19,10 @@ module GetLinkList
 
     private
     def match_initial_path_segment(path)
-      path= path.sub(/\(.:format\)/, "")
-      path.sub(/:(.*)id/, "1")
-      path.sub(/\(\/:locale\)/, "\/"+ GetLinkList.config.default_lang)
+      path = path.sub(/\(.:format\)/, "")
+      path = path.sub(/:(.*)id/, "1")
+      path = path.sub(/\(\/:locale\)/, "\/"+ GetLinkList.config.default_lang)
+      return path
     end
 
   end
